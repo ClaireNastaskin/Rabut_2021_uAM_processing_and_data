@@ -11,8 +11,8 @@
 %   modulation paradigm to obtain the nonlinear signal from the medium.
 %   Processing is asynchronous with respect to acquisition.
 %
-% Last update:
-% June 2020 - Claire R.
+% Rabut et al., Appl. Phys. Lett. 118, 244102 (2021); https://doi.org/10.1063/5.0050807
+
 
 clear all
 
@@ -33,7 +33,7 @@ for x = Aperture(1): Aperture(2)
 P.Apod(1,x) = 1;
 end
 
-DisplayScaling = 'power' ; % if ‘power’, 20=linear, 40 = sqrt - if ‘log’, 40 = 40dB dyn. range
+DisplayScaling = 'power' ; % if â€˜powerâ€™, 20=linear, 40 = sqrt - if â€˜logâ€™, 40 = 40dB dyn. range
 Display_output = 20 ; %Display mode only: 20 gives a power of 1.0 for a linear output, 40 gives a power of 0.5 for a square root compression
 
 
