@@ -18,8 +18,9 @@
 % Apod = -1 for pulse 1 and pulse 2 and Apod = 1 for pulse 3
 %
 % Hadamard summing, beamforming and coherent summing of the angles during reconstruction process post_acquisition on the other script.
-%----last update ---- C.Rabut july 2020
 % All the IQs are saved
+%
+% Rabut et al., Appl. Phys. Lett. 118, 244102 (2021); https://doi.org/10.1063/5.0050807
 
 clear all, format compact
 
