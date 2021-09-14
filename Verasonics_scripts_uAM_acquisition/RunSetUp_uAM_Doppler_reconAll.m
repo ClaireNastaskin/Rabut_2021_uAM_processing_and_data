@@ -16,8 +16,9 @@
 %
 % Hadamard summing: external process
 % Beamforming and coherent summing of the angles during reconstruction process.
-%----last update ---- C.Rabut july 2020
 % All the IQs are saved
+%
+% Rabut et al., Appl. Phys. Lett. 118, 244102 (2021); https://doi.org/10.1063/5.0050807
 
 clear all
 
